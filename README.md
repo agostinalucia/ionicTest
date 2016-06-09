@@ -27,7 +27,7 @@
   * Now you have to make the build , but first some android configs :
     1. Some libraries needed : `sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6`
     2. Make sure you have JDK version > 1.8  : `javac -version` | if not :  [Download and install](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-    4.[Download and install android sdk](https://developer.android.com/studio/index.html)
+    4. [Download and install android sdk](https://developer.android.com/studio/index.html)
     5. Then you set ANDROID_HOME environment variable with :
 `export ANDROID_HOME=~/android-sdk-linux`
     6. If you have some permission problems and you get that ANDROID_HOME is not set when you make the build then :

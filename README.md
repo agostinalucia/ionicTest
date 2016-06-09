@@ -34,11 +34,11 @@
     6. If you have some permission problems and you get that ANDROID_HOME is not set when you make the build then :
       1. On terminal : `sudo visudo`
       2. Vim file and add : `Defaults    env_keep += "ANDROID_HOME"`
-    7. Now you can made the build: `ionic build android`
+    7. Now you can made the build, on terminal : `ionic build android`
       1. You can get some error like this: `Error: Please install Android target: "android-23".`
       2. If this is the case you have to do: go to the directory /android-sdk-linux/tools and execute android manager ( with ./android) 
       3. Install Tools and android versions that are required (this may take a long)
-
+    8. Now you can (hopefully) run the app on genymotion, on terminal : `ionic run android`
 
 
 

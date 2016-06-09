@@ -3,8 +3,8 @@
 ## Testing ionic ( Ubuntu Guide )
 
 1. Install virtual box
-⋅⋅* From terminal: `sudo apt-get install virtualbox`  or  [Download](https://www.virtualbox.org/wiki/Downloads)
-⋅⋅* Important : __Make sure instalation ends correctly__
+  * From terminal: `sudo apt-get install virtualbox`  or  [Download](https://www.virtualbox.org/wiki/Downloads)
+  * Important : __Make sure instalation ends correctly__
 
 
 2. Install genymotion android emulator  

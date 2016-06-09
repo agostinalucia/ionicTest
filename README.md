@@ -22,6 +22,7 @@
     1. Black : `ionic start myApp blank`
     2. Tabs : `ionic start myApp tabs`
     3. Sidemenu : `ionic start myApp sidemenu`
+  * Choose one and install 
   * Try `ionic serve` for browser preview or `ionic serve --lab` for ios&android browser preview 
   * Once you have your template, navegate to the directory and proceed to add android platform `ionic platform add android`
   * Now you have to make the build , but first some android configs :

@@ -1,0 +1,12 @@
+<ion-view view-title="Test">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="test in tests" style="text-align: center">
+        Id: {{test.id}} | name : {{test.name}}
+      </ion-item>
+    </ion-list>
+
+    <button class="button button-positive button-block" ng-click="getContact()" >Get Contact</button>
+  </ion-content>
+</ion-view>
+

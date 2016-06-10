@@ -48,7 +48,9 @@
     9. Now you can (hopefully) run the app on genymotion. On terminal : `ionic run android`
     
 
-### If you are behind a proxy : May the force be with you 
+
+
+#### *If you are behind a proxy : May the force be with you 
 
 
 

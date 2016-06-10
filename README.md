@@ -38,7 +38,17 @@
       1. You can get some error like this: `Error: Please install Android target: "android-23".`
       2. If this is the case you have to do: go to the directory /android-sdk-linux/tools and execute android manager ( with ./android) 
       3. Install Tools and android versions that are required (this may take a long)
-    8. Now you can (hopefully) run the app on genymotion, on terminal : `ionic run android`
+      4. After this , you might see this error `Error: executing "adb devices": ADB server didn't ACK` then you run this comands :
+        1. `adb version`
+        2. `wget -O - https://skia.googlesource.com/skia/+archive/cd048d18e0b81338c1a04b9749a00444597df394/platform_tools/android/bin/linux.tar.gz | tar -zxvf - adb`
+        3. `sudo mv adb /usr/bin/adb`
+        4. `sudo chmod +x /usr/bin/adb`
+        5. If you run `adb version` again , you'll see that the version has changed 
+    8. Open genymotion and start a virtual device 
+    9. Now you can (hopefully) run the app on genymotion. On terminal : `ionic run android`
+    
+
+### If you are behind a proxy : May the force be with you 
 
 
 

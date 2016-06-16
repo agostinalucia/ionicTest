@@ -17,7 +17,7 @@
 
 
 3. Install ionic 
-  * Assumign you already have installed NodeJs,proceed to install Ionic & Cordova on terminal `npm install -g cordova ionic`
+  * Assuming you already have installed NodeJs,proceed to install Ionic & Cordova on terminal `npm install -g cordova ionic`
   * You have three ionic templates availables for install : 
     1. Black : `ionic start myApp blank`
     2. Tabs : `ionic start myApp tabs`
